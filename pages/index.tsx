@@ -1,4 +1,4 @@
-import PostsContainer from './components/PostsContainer';
+import PostsContainer from '../components/PostsContainer';
 
 export default function Home() {
 

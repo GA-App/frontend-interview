@@ -1,8 +1,8 @@
 'use client';
 
 import { useEffect, useState } from 'react';
-import { Post } from '../../types';
-import { expandUniquePosts } from '../../utils';
+import { Post } from '../types';
+import { expandUniquePosts } from '../utils';
 
 export default function Posts({ postId = 0, postTitle = '' }) {
 	const [posts, setPosts] = useState<Post[]>([]);
